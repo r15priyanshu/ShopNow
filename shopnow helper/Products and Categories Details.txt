@@ -1,0 +1,46 @@
+ELECTRONICS: Cutting-edge devices and technologies for enhanced daily living.
+FURNITURE: Stylish and functional pieces to transform your living spaces.
+TOYS: Engaging and entertaining playthings for children of all ages.
+BEAUTY: Products and tools to enhance personal grooming and self-care routines.
+CLOTHING: Fashionable apparel and accessories to express your personal style.
+
+=========
+Product 1
+Apple iPhone 14 (128 GB) - Midnight
+The Apple iPhone 14 (128 GB) in Midnight offers a sleek and powerful mobile experience. With its generous storage capacity, you can store ample photos, videos, and apps. The device boasts a stunning design, advanced features, and a high-performance processor, ensuring a seamless user experience for all your smartphone needs.
+66999
+
+=========
+Product 2
+Home furniture | Three Seater Sofa
+The Three Seater Sofa is a stylish and comfortable seating option designed to accommodate three individuals. With its spacious design, plush cushions, and durable construction, it offers a perfect balance of style and functionality. It adds elegance to any living space, providing ample seating for relaxation and socializing.
+15999
+=========
+Product 3
+MSI Gaming Laptop GF63
+The MSI Gaming Laptop GF63 is a powerful and compact gaming laptop that delivers exceptional performance. With its sleek design and robust features, it offers an immersive gaming experience. Equipped with a high-performance processor, dedicated graphics, and a vibrant display, it provides smooth stunning visuals.
+59990
+
+=========
+Product 4
+Devoko Outdoor Bistro Set with Table
+The Devoko Outdoor Bistro Set with Table is a stylish and functional furniture set designed for outdoor use. It features two comfortable chairs and a tempered glass-top table, providing a cozy space for relaxing and dining. Constructed with durable materials, the set is weather-resistant and built to withstand outdoor elements.
+20999
+
+=========
+Product 5
+Boat Rockerz 255 Pro+
+The Boat Rockerz 255 Pro+ is a wireless Bluetooth earphone that offers exceptional sound quality and comfort. With an ergonomic design and IPX7 water resistance, it is perfect for active lifestyles. The earphones feature a powerful battery that provides up to 40 hours of playback time, and it supports fast charging. 
+1199
+
+=========
+Product 6
+Puma Mens Jacket
+The Puma Men's Jacket combines style and functionality with its sleek design and high-performance features. Made with durable materials, it offers excellent protection against the elements. The jacket features a comfortable fit, versatile enough for everyday wear or outdoor activities.
+4469
+
+=========
+Product 7
+Funskool Rubik s Cube (3x3)
+The Funskool Rubik's Cube (3x3) is a classic puzzle game that challenges your logic and problem-solving skills. With its iconic design and smooth turning mechanism, it offers endless hours of fun and brain-teasing entertainment. Solve the colorful cube by aligning the colors on each side to complete the ultimate challenge.
+570

@@ -1,0 +1,18 @@
+
+.portal-overlay{
+  background-color:rgba(0,0,0,0.3);
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+ 
+}
+.portal-content{
+  background-color:rgba(255,255,255,1);
+  position:absolute;
+  padding:50px;
+   top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
