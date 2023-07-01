@@ -19,7 +19,7 @@
 #### ADMIN MANAGE PRODUCT
 ![ManageProduct](Screenshots/AdminAddProductPage.JPG)
 
-#### ADMIN MANAGE PRODUCT
+#### ADMIN MANAGE CATEGORY
 ![ManageCategory](Screenshots/AdminAddCategoryPage.JPG)
 
 #### LOGIN PAGE
