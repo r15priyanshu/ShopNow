@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.7.11</version>
+		<version>3.2.2</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.shopnow</groupId>
@@ -14,8 +14,8 @@
 	<name>orderservice</name>
 	<description>ORDER MICROSERVICE FOR SHOPNOW APPLICATION</description>
 	<properties>
-		<java.version>11</java.version>
-		<spring-cloud.version>2021.0.7</spring-cloud.version>
+		<java.version>17</java.version>
+		<spring-cloud.version>2023.0.0</spring-cloud.version>
 	</properties>
 	<dependencies>
 		<dependency>
