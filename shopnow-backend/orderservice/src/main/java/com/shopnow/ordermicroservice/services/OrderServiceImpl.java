@@ -1,7 +1,6 @@
 package com.shopnow.ordermicroservice.services;
 
 import java.time.LocalDateTime;
-import java.util.Date;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -35,6 +34,9 @@ public class OrderServiceImpl implements OrderService {
 	@Override
 	public List<Order> createOrder(Integer cid, ShippingDetailsDto shippingDetailsDto) {
 		List<CartItem> allItemsInCartByCustomerId = cartService.getAllItemsInCartByCustomerId(cid);
+		if (allItemsInCartByCustomerId.isEmpty())
+			throw new CustomException("No items in the cart for customer with id:" + cid, HttpStatus.NOT_FOUND);
+
 		List<Order> createdOrders = allItemsInCartByCustomerId.stream().map((item) -> {
 
 			// creating new order
@@ -68,7 +70,7 @@ public class OrderServiceImpl implements OrderService {
 	public List<Order> getAllOrdersByCustomerId(Integer cid) {
 		List<Order> allOrders = orderRepository.findOrdersByCustomerid(cid);
 		allOrders = allOrders.stream().map((order) -> {
-			ProductDto product = productServiceExternal.getProductById(order.getProductid());
+			ProductDto product = productServiceExternal.getProductById(order.getProductid()).getBody();
 			order.setProduct(product);
 			return order;
 		}).collect(Collectors.toList());
