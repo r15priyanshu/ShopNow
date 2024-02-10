@@ -2,23 +2,20 @@ package com.shopnow.usermicroservice.services;
 
 import java.util.List;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
 import com.shopnow.usermicroservice.entities.Customer;
-import com.shopnow.usermicroservice.external.dtos.Order;
+import com.shopnow.usermicroservice.exceptions.CustomException;
 import com.shopnow.usermicroservice.external.services.OrderServiceExternal;
 import com.shopnow.usermicroservice.repositories.CustomerRepository;
-import com.shopnow.usermicroservice.services.exceptions.CustomException;
+
+import lombok.extern.slf4j.Slf4j;
 
 @Service
+@Slf4j
 public class CustomerServiceImpl implements CustomerService {
-	
-	private Logger logger=LoggerFactory.getLogger(getClass());
 	
 	@Autowired
 	CustomerRepository customerRepository;

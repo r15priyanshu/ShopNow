@@ -1,4 +1,4 @@
-package com.shopnow.usermicroservice.services.exceptions;
+package com.shopnow.usermicroservice.exceptions;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ExceptionHandler;

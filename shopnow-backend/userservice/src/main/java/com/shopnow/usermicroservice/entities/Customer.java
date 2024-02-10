@@ -25,5 +25,6 @@ public class Customer {
 	private String password;
 	private String mobile;
 	private String address;
+	@Builder.Default
 	private boolean isadmin=false;
 }
