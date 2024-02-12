@@ -14,6 +14,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>usermicroservice</name>
 	<description>USER MICROSERVICE FOR SHOPNOW APPLICATION</description>
+	<packaging>jar</packaging>
 	<properties>
 		<java.version>17</java.version>
 		<spring-cloud.version>2023.0.0</spring-cloud.version>
@@ -86,6 +87,7 @@
 		</dependencies>
 	</dependencyManagement>
 	<build>
+		<finalName>shopnow-${project.name}</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>

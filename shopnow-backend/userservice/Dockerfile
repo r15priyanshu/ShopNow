@@ -6,4 +6,4 @@ WORKDIR /app/shopnow
 COPY . .
 RUN mvn clean package -DskipTests
 # Define the default command to run the application
-CMD ["sh", "-c", "java $JAVA_OPTS -jar target/shopnow-eurekaserver.jar"]
+CMD ["sh", "-c", "java $JAVA_OPTS -jar target/shopnow-userservice.jar"]

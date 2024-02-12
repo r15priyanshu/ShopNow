@@ -12,7 +12,7 @@ WORKDIR /app/shopnow
 COPY . .
 RUN mvn clean package -DskipTests
 # Define the default command to run the application
-CMD ["java", "-jar", "target/shopnow-eurekaserver.jar"]
+CMD ["sh", "-c", "java $JAVA_OPTS -jar target/shopnow-eurekaserver.jar"]
 
 --------------------------------------------
 USE BELOW TEMPLATE FOR ONLY JRE IN CONTAINER
@@ -27,5 +27,7 @@ CMD ["java", "-jar", "shopnow-eurekaserver.jar"]
 
 
 docker build -t shopnow-eurekaserver:latest .
-docker run --name shopnow-eurekaserver-instance1 -d -p 8761:8761 shopnow-eurekaserver
+docker build -t shopnow-apigateway:latest .
+docker run --name shopnow-eurekaserver-instance1 -d -e JAVA_OPTS="-Dspring.profiles.active=prd" -p 8761:8761 shopnow-eurekaserver
+docker run --name shopnow-apigateway-instance1 -d -e JAVA_OPTS="-Dspring.profiles.active=prd" -p 8761:8761 shopnow-apigateway
 docker exec -it shopnow-eurekaserver-instance1 sh
