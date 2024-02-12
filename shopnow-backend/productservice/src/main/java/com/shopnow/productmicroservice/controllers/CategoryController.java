@@ -17,7 +17,6 @@ import com.shopnow.productmicroservice.entities.Category;
 import com.shopnow.productmicroservice.services.CategoryService;
 
 @RestController
-@RequestMapping("/pms")
 public class CategoryController {
 
 	@Autowired
